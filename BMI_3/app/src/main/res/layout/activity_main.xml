@@ -58,7 +58,7 @@
                 android:orientation="vertical">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/height"
+                    android:id="@+id/edtHeight"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enter Height in cm"></com.google.android.material.textfield.TextInputEditText>
@@ -73,14 +73,14 @@
                 android:orientation="vertical">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/weight"
+                    android:id="@+id/edtWeight"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enter Weight in kg  "></com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/Submit"
+                android:id="@+id/btnSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -91,7 +91,7 @@
             </Button>
 
             <TextView
-                android:id="@+id/result"
+                android:id="@+id/tvResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="180dp"

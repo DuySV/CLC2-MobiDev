@@ -43,7 +43,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/editTextNumber6"
+                    android:id="@+id/edtX"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -52,13 +52,14 @@
                     android:paddingTop="100dp" />
 
                 <EditText
-                    android:id="@+id/editTextNumber7"
+                    android:id="@+id/edtY"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="number"
                     android:paddingTop="100dp" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -69,6 +70,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/btnPlus"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -80,6 +82,7 @@
                     app:cornerRadius="0dp" />
 
                 <Button
+                    android:id="@+id/btnMinus"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -90,6 +93,7 @@
                     app:cornerRadius="0dp" />
 
                 <Button
+                    android:id="@+id/btnMultiply"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -100,6 +104,7 @@
                     app:cornerRadius="0dp" />
 
                 <Button
+                    android:id="@+id/btnDivide"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -108,6 +113,25 @@
                     android:gravity="center"
                     android:text="/"
                     app:cornerRadius="0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvZ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="TextView"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
             </LinearLayout>
 
         </LinearLayout>

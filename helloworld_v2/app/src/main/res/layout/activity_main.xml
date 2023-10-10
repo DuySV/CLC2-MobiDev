@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        >
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -37,7 +37,8 @@
             android:textStyle="bold"
             android:layout_marginBottom="19dp"
             android:paddingTop="20dp"
-            android:textColor="#0084E3"/>
+            android:textColor="#0084E3"
+            android:id="@+id/HelloWorld"/>
 
         <Button
             android:id="@+id/button"
