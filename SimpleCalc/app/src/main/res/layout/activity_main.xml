@@ -44,20 +44,22 @@
 
                 <EditText
                     android:id="@+id/edtX"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="number"
+                    android:hint="X"
                     android:paddingTop="100dp" />
 
                 <EditText
                     android:id="@+id/edtY"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="number"
+                    android:hint="Y"
                     android:paddingTop="100dp" />
 
             </LinearLayout>
@@ -123,15 +125,25 @@
                 android:orientation="horizontal"
                 android:gravity="center">
 
-                <TextView
-                    android:id="@+id/tvZ"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:text="TextView"
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
