@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="#4472C4"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:backgroundTint="#FEFE00"
+            android:text="Bài 1"
+            android:textColor="#4C9B86"
+            app:cornerRadius="2px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:orientation="vertical"
+        android:background="#4472C4">
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:text="Bài 2"
+            android:textColor="#4C9B86"
+            android:backgroundTint="#FEFE00"
+            app:cornerRadius="0px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="#4472C4"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:text="Bài 3"
+            android:textColor="#4C9B86"
+            android:backgroundTint="#FEFE00"
+            app:cornerRadius="0px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="#4472C4"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:text="Bài 4"
+            android:textColor="#4C9B86"
+
+            android:backgroundTint="#FEFE00"
+            app:cornerRadius="0px" />
+    </LinearLayout>
+</LinearLayout>

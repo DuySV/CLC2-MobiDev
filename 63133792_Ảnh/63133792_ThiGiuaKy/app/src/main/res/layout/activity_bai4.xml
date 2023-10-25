@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6D7D7"
+    android:orientation="vertical"
+    tools:context=".ActivityBai4" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="600dp"
+        android:layout_gravity="center"
+        android:maxHeight="600dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/_201136"
+ />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:paddingTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới Thiệu Sinh Viên"
+        android:textColor="#6200EE"
+        android:textSize="19dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:paddingTop="50px"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:layout_gravity="center"
+        android:textColor="#0084E3"
+        android:textSize="21sp" />
+
+    <TextView
+        android:paddingTop="100px"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Là 1 sinh viên năm 3 bình thường của khoa công nghệ thông tin chất lượng cao 2 của trường đại học Nha Trang"
+        android:textSize="21sp"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Name: Dương Nhất Duy"
+            android:layout_gravity="center"
+            app:cornerRadius="0px"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            app:cornerRadius="0px"
+            android:text="SDT:0898144607"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            app:cornerRadius="0px"
+            android:text="Email:duy.dn.63cntt2@ntu.edu.vn" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            app:cornerRadius="0px"
+            android:text="MSSV:63133792" />
+    </LinearLayout>
+</LinearLayout>
